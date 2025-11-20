@@ -8,3 +8,7 @@ export * from './units';
 export * from './terrain';
 export * from './combat';
 export * from './mission';
+
+// Explicit type re-exports for bundler compatibility
+export type { WeatherCondition, TimeOfDay, TerrainType, Terrain, TerrainCell, WeatherData } from './terrain';
+export { TERRAIN_MODIFIERS, WEATHER_EFFECTS, TIME_EFFECTS } from './terrain';
