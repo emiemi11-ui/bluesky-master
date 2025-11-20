@@ -3,6 +3,7 @@
  */
 
 import { Position } from './units';
+import { TimeOfDay, WeatherCondition } from './terrain';
 
 export type MissionType =
   | 'OFFENSIVE'
